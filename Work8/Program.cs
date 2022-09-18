@@ -5,14 +5,3 @@ while (count <= number) {
   if (count%2 == 0) Console.Write(count + " "); 
   count++;
 }
-
-
-//Вывод нечетных
-count = 1;
-Console.WriteLine(" "); 
-while (count <= number) {  
-  if (count%2 > 0) Console.Write(count + " "); 
-  count++;
-}
-
-
